@@ -6,6 +6,10 @@ export const sidebar = [
         text: 'Introduction',
         link: '/',
       },
+      {
+        text: 'First Steps',
+        link: '/first-steps',
+      },
     ],
   },
 ];
