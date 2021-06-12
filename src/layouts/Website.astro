@@ -1,0 +1,29 @@
+---
+export let content;
+---
+
+<html>
+  <head>
+    <title>{content.title}</title>
+    <meta name="description" content="{content.description}" />
+    <link rel="stylesheet" type="text/css" href="/global.css">
+    <link rel="icon" 
+      type="image/svg+xml" 
+      href="/favicon.svg">
+
+    <!-- <link rel="stylesheet" href="/web-site.css" /> -->
+    
+    <style>
+      
+    </style>
+  </head>
+
+  <body>
+    <header>
+    </header>
+
+    <main class="layout">
+      <slot />
+    </main>
+  </body>
+</html>
