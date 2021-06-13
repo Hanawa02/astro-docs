@@ -1,16 +1,12 @@
 <template>
-  <nav class="navbar">
-    <div><FakeLogo /></div>
-  </nav>
+  <p>fake logo</p>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import FakeLogo from './FakeLogo.vue';
 
 export default defineComponent({
-  components: { FakeLogo },
-  name: 'TheHeader',
+  name: 'FakeLogo',
 });
 </script>
 
