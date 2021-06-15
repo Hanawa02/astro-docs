@@ -7,7 +7,7 @@
     "build": "astro build"
   },
   "devDependencies": {
-    "astro": "^0.13.1",
+    "astro": "^0.13.6",
     "tailwindcss": "^2.1.4"
   },
   "snowpack": {
